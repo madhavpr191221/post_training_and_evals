@@ -1,0 +1,59 @@
+# Filenames rejected during visual review of deterministic candidate contact sheets.
+# The preparation command continues down the seeded candidate order until each class
+# has exactly 30 accepted images.
+reject:
+  airplane:
+    - airplane_011.png
+    - airplane_018.png
+    - airplane_021.png
+    - airplane_023.png
+    - airplane_025.png
+    - airplane_038.png
+    - airplane_048.png
+    - airplane_050.png
+    - airplane_056.png
+    - airplane_063.png
+    - airplane_078.png
+    - airplane_087.png
+  bird:
+    - bird_020.png
+    - bird_063.png
+  car:
+    - car_009.png
+    - car_017.png
+    - car_050.png
+  cat:
+    - cat_095.png
+  deer:
+    - deer_028.png
+    - deer_037.png
+    - deer_043.png
+  dog:
+    - dog_055.png
+    - dog_077.png
+    - dog_086.png
+    - dog_088.png
+    - dog_095.png
+  horse:
+    - horse_090.png
+  monkey:
+    - monkey_008.png
+    - monkey_024.png
+    - monkey_025.png
+    - monkey_032.png
+    - monkey_050.png
+    - monkey_057.png
+    - monkey_063.png
+    - monkey_066.png
+    - monkey_070.png
+  ship:
+    - ship_005.png
+    - ship_006.png
+    - ship_016.png
+    - ship_038.png
+    - ship_053.png
+    - ship_086.png
+  truck:
+    - truck_032.png
+    - truck_036.png
+    - truck_063.png

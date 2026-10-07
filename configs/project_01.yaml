@@ -1,0 +1,34 @@
+project: project_01
+seed: 20261007
+per_class: 30
+candidate_pool_per_class: 45
+
+source:
+  root: ../perception_world_models/data/test_images
+  manifest: ../perception_world_models/data/test_images_manifest.csv
+
+data:
+  root: data/project_01
+  images: data/project_01/images
+  manifest: data/project_01/manifest.csv
+  audit: data/project_01/audit.csv
+  cases: data/project_01/cases.jsonl
+  contact_sheets: data/project_01/audit_contact_sheets
+
+models:
+  base:
+    id: HuggingFaceTB/SmolVLM-Base
+    revision: a576ab7b4354916a0cb5b58a3bd973a9a526ee7c
+  instruct:
+    id: HuggingFaceTB/SmolVLM-Instruct
+    revision: 81cd9a775a4d644f2faf4e7becff4559b46b14c7
+
+inference:
+  dtype: bfloat16
+  device: cuda
+  do_sample: false
+  max_new_tokens: 48
+
+outputs:
+  runs: runs/project_01
+  report: reports/project_01_baseline.md

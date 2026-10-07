@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Third-party image bytes and visual-audit derivatives stay local.
+data/project_01/images/
+data/project_01/audit_contact_sheets/
+
+# The Markdown report is source-controlled; this generated HTML bundle is not.
+reports/project_01_baseline.html
+reports/project_01_baseline_files/
+
+# Hugging Face/model caches must never be committed.
+.cache/
+models/

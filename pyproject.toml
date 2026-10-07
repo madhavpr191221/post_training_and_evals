@@ -1,0 +1,42 @@
+[project]
+name = "post-training-evals"
+version = "0.1.0"
+description = "Reproducible post-training and model-evaluation experiments"
+readme = "README.md"
+authors = [
+    { name = "madhavpr191221", email = "madhavpr191221@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.10,<2",
+    "pillow>=11.3,<13",
+    "pyyaml>=6.0,<7",
+    "torch==2.13.0",
+    "torchvision==0.28.0",
+    "transformers==5.9.0",
+]
+
+[project.scripts]
+post-training-evals = "post_training_evals.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.10.10,<0.11.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4,<10",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+torchvision = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true

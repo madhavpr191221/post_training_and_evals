@@ -1,0 +1,439 @@
+{
+  "by_class": {
+    "airplane": {
+      "base": {
+        "accuracy": 0.16666666666666666,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 4.058333333333334,
+        "median_latency_seconds": 1.8123697499977425,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      },
+      "instruct": {
+        "accuracy": 1.0,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 1.6166666666666667,
+        "median_latency_seconds": 1.1411711499968078,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      }
+    },
+    "bird": {
+      "base": {
+        "accuracy": 0.2,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 3.816666666666667,
+        "median_latency_seconds": 1.243396700010635,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      },
+      "instruct": {
+        "accuracy": 0.8916666666666667,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 1.5166666666666666,
+        "median_latency_seconds": 1.1329866499872878,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      }
+    },
+    "car": {
+      "base": {
+        "accuracy": 0.14166666666666666,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 5.308333333333334,
+        "median_latency_seconds": 2.0908459500060417,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      },
+      "instruct": {
+        "accuracy": 0.9916666666666667,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 2.2083333333333335,
+        "median_latency_seconds": 1.1428119000047445,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      }
+    },
+    "cat": {
+      "base": {
+        "accuracy": 0.3333333333333333,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 4.1,
+        "median_latency_seconds": 1.2857958000095095,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      },
+      "instruct": {
+        "accuracy": 0.8833333333333333,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 2.716666666666667,
+        "median_latency_seconds": 1.1640853499993682,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      }
+    },
+    "deer": {
+      "base": {
+        "accuracy": 0.16666666666666666,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 3.3666666666666667,
+        "median_latency_seconds": 1.326116699987324,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      },
+      "instruct": {
+        "accuracy": 1.0,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 2.216666666666667,
+        "median_latency_seconds": 1.1606503000075463,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      }
+    },
+    "dog": {
+      "base": {
+        "accuracy": 0.275,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 4.175,
+        "median_latency_seconds": 1.318847349990392,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      },
+      "instruct": {
+        "accuracy": 0.9416666666666667,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 2.691666666666667,
+        "median_latency_seconds": 1.1627257499785628,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      }
+    },
+    "horse": {
+      "base": {
+        "accuracy": 0.15,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 3.5416666666666665,
+        "median_latency_seconds": 1.4177883499942254,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      },
+      "instruct": {
+        "accuracy": 0.95,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 2.033333333333333,
+        "median_latency_seconds": 1.1566905499785207,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      }
+    },
+    "monkey": {
+      "base": {
+        "accuracy": 0.20833333333333334,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 3.283333333333333,
+        "median_latency_seconds": 1.2543991999991704,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      },
+      "instruct": {
+        "accuracy": 0.8833333333333333,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 2.8,
+        "median_latency_seconds": 1.1519307999988087,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      }
+    },
+    "ship": {
+      "base": {
+        "accuracy": 0.21666666666666667,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 4.791666666666667,
+        "median_latency_seconds": 2.119104499957757,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      },
+      "instruct": {
+        "accuracy": 0.975,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 2.7083333333333335,
+        "median_latency_seconds": 1.1596318999945652,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      }
+    },
+    "truck": {
+      "base": {
+        "accuracy": 0.15833333333333333,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 5.391666666666667,
+        "median_latency_seconds": 2.1380425000097603,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      },
+      "instruct": {
+        "accuracy": 0.7583333333333333,
+        "cases": 120,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 2.7666666666666666,
+        "median_latency_seconds": 1.1551669999898877,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 120
+      }
+    }
+  },
+  "by_prompt": {
+    "closed_set": {
+      "base": {
+        "accuracy": 0.07,
+        "cases": 300,
+        "format_valid_rate": null,
+        "mean_response_words": 1.65,
+        "median_latency_seconds": 1.2067782999947667,
+        "peak_vram_mib": 4768.2451171875,
+        "successful": 300
+      },
+      "instruct": {
+        "accuracy": 0.97,
+        "cases": 300,
+        "format_valid_rate": null,
+        "mean_response_words": 1.0,
+        "median_latency_seconds": 1.1455017999978736,
+        "peak_vram_mib": 4768.2451171875,
+        "successful": 300
+      }
+    },
+    "json_label": {
+      "base": {
+        "accuracy": 0.0,
+        "cases": 300,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 5.733333333333333,
+        "median_latency_seconds": 2.1645137000014074,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 300
+      },
+      "instruct": {
+        "accuracy": 0.9033333333333333,
+        "cases": 300,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 1.0833333333333333,
+        "median_latency_seconds": 1.1475968000013381,
+        "peak_vram_mib": 4770.9970703125,
+        "successful": 300
+      }
+    },
+    "open": {
+      "base": {
+        "accuracy": 0.6666666666666666,
+        "cases": 300,
+        "format_valid_rate": null,
+        "mean_response_words": 4.6066666666666665,
+        "median_latency_seconds": 1.2748759500100277,
+        "peak_vram_mib": 4762.2392578125,
+        "successful": 300
+      },
+      "instruct": {
+        "accuracy": 0.89,
+        "cases": 300,
+        "format_valid_rate": null,
+        "mean_response_words": 6.226666666666667,
+        "median_latency_seconds": 1.3054894999950193,
+        "peak_vram_mib": 4762.2392578125,
+        "successful": 300
+      }
+    },
+    "strict_label": {
+      "base": {
+        "accuracy": 0.07,
+        "cases": 300,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 4.743333333333333,
+        "median_latency_seconds": 2.081496150000021,
+        "peak_vram_mib": 4768.4951171875,
+        "successful": 300
+      },
+      "instruct": {
+        "accuracy": 0.9466666666666667,
+        "cases": 300,
+        "format_valid_rate": 0.0,
+        "mean_response_words": 1.0,
+        "median_latency_seconds": 1.1430282999936026,
+        "peak_vram_mib": 4768.4951171875,
+        "successful": 300
+      }
+    }
+  },
+  "models": {
+    "base": {
+      "accuracy": 0.20166666666666666,
+      "cases": 1200,
+      "format_valid_rate": 0.0,
+      "mean_response_words": 4.183333333333334,
+      "median_latency_seconds": 1.359438899991801,
+      "model_id": "HuggingFaceTB/SmolVLM-Base",
+      "model_revision": "a576ab7b4354916a0cb5b58a3bd973a9a526ee7c",
+      "peak_vram_mib": 4770.9970703125,
+      "successful": 1200
+    },
+    "instruct": {
+      "accuracy": 0.9275,
+      "cases": 1200,
+      "format_valid_rate": 0.0,
+      "mean_response_words": 2.3275,
+      "median_latency_seconds": 1.1516140500025358,
+      "model_id": "HuggingFaceTB/SmolVLM-Instruct",
+      "model_revision": "81cd9a775a4d644f2faf4e7becff4559b46b14c7",
+      "peak_vram_mib": 4770.9970703125,
+      "successful": 1200
+    }
+  },
+  "paired": {
+    "base_only": 8,
+    "both_correct": 234,
+    "both_wrong": 79,
+    "instruct_only": 879
+  },
+  "representative_disagreements": [
+    {
+      "base": "<PERSON>",
+      "case_id": "airplane-airplane_001:closed_set",
+      "expected": "airplane",
+      "instruct": "Airplane."
+    },
+    {
+      "base": "",
+      "case_id": "airplane-airplane_002:closed_set",
+      "expected": "airplane",
+      "instruct": "Airplane."
+    },
+    {
+      "base": "",
+      "case_id": "bird-bird_006:closed_set",
+      "expected": "bird",
+      "instruct": "Bird."
+    },
+    {
+      "base": "",
+      "case_id": "bird-bird_007:closed_set",
+      "expected": "bird",
+      "instruct": "Bird."
+    },
+    {
+      "base": "<PERSON>",
+      "case_id": "car-car_003:closed_set",
+      "expected": "car",
+      "instruct": "Car."
+    },
+    {
+      "base": "<PERSON>",
+      "case_id": "car-car_007:closed_set",
+      "expected": "car",
+      "instruct": "Car."
+    },
+    {
+      "base": "",
+      "case_id": "cat-cat_001:closed_set",
+      "expected": "cat",
+      "instruct": "Cat."
+    },
+    {
+      "base": "<PERSONFULLNAME>",
+      "case_id": "cat-cat_003:closed_set",
+      "expected": "cat",
+      "instruct": "Cat."
+    },
+    {
+      "base": "",
+      "case_id": "deer-deer_002:closed_set",
+      "expected": "deer",
+      "instruct": "Deer."
+    },
+    {
+      "base": "",
+      "case_id": "deer-deer_004:closed_set",
+      "expected": "deer",
+      "instruct": "Deer."
+    },
+    {
+      "base": "<PERSON>",
+      "case_id": "dog-dog_004:closed_set",
+      "expected": "dog",
+      "instruct": "Dog."
+    },
+    {
+      "base": "<PERSON>",
+      "case_id": "dog-dog_007:closed_set",
+      "expected": "dog",
+      "instruct": "Dog."
+    },
+    {
+      "base": "<PERSON>",
+      "case_id": "horse-horse_002:closed_set",
+      "expected": "horse",
+      "instruct": "Horse."
+    },
+    {
+      "base": "<row_1_col_1> <row_1_col_2> <row_1_col_3> <row_1_col_4> <row_1_col_5> <row_",
+      "case_id": "horse-horse_003:closed_set",
+      "expected": "horse",
+      "instruct": "Horse"
+    },
+    {
+      "base": "",
+      "case_id": "monkey-monkey_002:closed_set",
+      "expected": "monkey",
+      "instruct": "Monkey."
+    },
+    {
+      "base": "1",
+      "case_id": "monkey-monkey_003:closed_set",
+      "expected": "monkey",
+      "instruct": "Monkey."
+    },
+    {
+      "base": "",
+      "case_id": "ship-ship_002:closed_set",
+      "expected": "ship",
+      "instruct": "Ship."
+    },
+    {
+      "base": "",
+      "case_id": "ship-ship_003:closed_set",
+      "expected": "ship",
+      "instruct": "Ship."
+    },
+    {
+      "base": "",
+      "case_id": "truck-truck_001:closed_set",
+      "expected": "truck",
+      "instruct": "Truck."
+    },
+    {
+      "base": "",
+      "case_id": "truck-truck_004:closed_set",
+      "expected": "truck",
+      "instruct": "Truck."
+    }
+  ],
+  "shared_cases": 1200
+}
